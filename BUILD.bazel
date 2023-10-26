@@ -1,0 +1,17 @@
+java_library(
+    name = "main",
+    srcs = glob(["src/main/java/**/*.java"]),
+    resources = glob(["src/main/resources/**"]),
+    deps = ["//:all-external-targets"],
+    excluded_deps = [
+        ":javax_enterprise_cdi-api"
+        ":javax_annotation_jsr250-api",
+        ":org_jboss_spec_javax_interceptor_jboss-interceptors-api_1_1_spec",
+        ":org_slf4j_slf4j-api",
+        ":org_javassist_javassist",
+        ":com_google_code_findbugs_jsr305",
+        ":commons-lang_commons-lang",				
+        ":de_tototec_de_tototec_cmdoption",
+        ":rg_ow2_asm_asm",
+    ],
+)
