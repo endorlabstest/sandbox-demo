@@ -1,0 +1,29 @@
+spec:
+  linux_tool_chain:
+    java_tool_chain:
+      version:
+        name: "21.0.3"
+        urls:
+          - "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/21.0.3+9/openlogic-openjdk-21.0.3+9-linux-x64.tar.gz"
+        relative_tool_chain_path: "openlogic-openjdk-21.0.3+9-linux-x64"
+        sha256_sum: "924e23d8b56afe99b05aa0f5da0d921bc44812a2882bb5f226dc43309f202b23"
+      maven_version:
+        name: "4.0.0"
+        urls:
+          - "https://archive.apache.org/dist/maven/maven-4/4.0.0-alpha-13/binaries/apache-maven-4.0.0-alpha-13-bin.tar.gz"
+        relative_tool_chain_path: "apache-maven-4.0.0-alpha-13"
+        sha256_sum: "924e23d8b56afe99b05aa0f5da0d921bc44812a2882bb5f226dc43309f202b23"
+  mac_tool_chain:
+    java_tool_chain:
+      version:
+        name: "21.0.3"
+        urls:
+          - "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/21.0.3+9/openlogic-openjdk-21.0.3+9-mac-x64.zip"
+        relative_tool_chain_path: "openlogic-openjdk-21.0.3+9-mac-x64/jdk-21.0.3.jdk/Contents/Home"
+        sha256_sum: "20ca440130116ffd38efb74881c9b90e4c7192798c1b17699b95817ff1cf4481"
+      maven_version:
+        name: "4.0.0"
+        urls:
+          - "https://archive.apache.org/dist/maven/maven-4/4.0.0-alpha-13/binaries/apache-maven-4.0.0-alpha-13-bin.tar.gz"
+        relative_tool_chain_path: "apache-maven-4.0.0-alpha-13"
+        sha256_sum: "924e23d8b56afe99b05aa0f5da0d921bc44812a2882bb5f226dc43309f202b23"
