@@ -6,7 +6,7 @@ spec:
         urls:
           - "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/21.0.3+9/openlogic-openjdk-21.0.3+9-linux-x64.tar.gz"
         relative_tool_chain_path: "openlogic-openjdk-21.0.3+9-linux-x64"
-        sha256_sum: "924e23d8b56afe99b05aa0f5da0d921bc44812a2882bb5f226dc43309f202b23"
+        sha256_sum: "e5858e2fe46d88ec3969ce3f3108801882d8ab899775b82d5c925319759907e7"
       maven_version:
         name: "4.0.0"
         urls:
